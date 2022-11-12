@@ -1,0 +1,9 @@
+FROM openjdk
+
+WORKIR /application
+
+COPY marwan.java .
+
+RUN javac marwan.java
+
+CMD java marwan
